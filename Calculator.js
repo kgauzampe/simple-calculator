@@ -1,9 +1,10 @@
-
+module.exports = class SimpleCalculator2 {
+    constructor() {}
 
 function add (a,b) {
 
 
-return  a + b;
+return  a + b; 
 
 
 }
@@ -42,6 +43,7 @@ module.exports = {
     addMultiple,
     multiply,
     multipleMultiply
+}
 }
 
 console.log(add(4,5));
