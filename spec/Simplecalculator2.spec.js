@@ -1,4 +1,4 @@
-let calc = require('../simpleCalculator2');
+let calc = require('../src/simpleCalculator2');
 let calculator = new calc;
 
 console.log(calculator.add(1,2,1,10,36));
