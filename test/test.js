@@ -14,7 +14,7 @@ describe("simple calculator to add multiple values", function () {
 
 describe("simple calculator to multiply two values", function () {
     it("should multiply two values", function () {
-        expect(calculator.multiply(1,2)).toEqual(2);
+        expect(calculator.multiply(1,2)).toEqual(2); 
     });
 });
 
